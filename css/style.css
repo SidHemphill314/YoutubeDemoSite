@@ -1,0 +1,25 @@
+h1 {
+    color: yellow;
+    font-family: 'Press Start 2p';
+}
+h2 {
+    color: grey;
+    font-family: 'Press Start 2p';
+}
+
+h3 {
+    font-family: 'Press Start 2p';
+}
+p {
+    color: red;
+    font-family: 'Press Start 2P';
+}
+
+.listItem {
+    color: yellow;
+    font-family: 'Press Start 2P';
+}
+
+div.container {
+    padding: 5px, 10px;
+}
