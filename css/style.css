@@ -1,26 +1,56 @@
 h1 {
     color: yellow;
     font-family: 'Press Start 2p';
-    
+    position: center; 
+
 }
+
 h2 {
     color: grey;
     font-family: 'Press Start 2p';
 }
 
 h3 {
+    color: yellow;
     font-family: 'Press Start 2p';
+
 }
+
 p {
     color: red;
     font-family: 'Press Start 2P';
 }
 
+.navigationContainer {
+    display: block;
+    background-color: black;
+   font-size: 120%;
+}
+
+.headerContainer {
+    background-color: black;
+}
+
+.contentContainer {
+background-color: black
+}
+
+.footerContainer {
+    background-color: black;
+}
+
+
+#navigation a:hover {
+    background-color: blue;
+}
+
+#navigation>ul>li {
+    display: inline;
+    list-style: none;
+    font-display: center;
+}
+
 .listItem {
     color: yellow;
     font-family: 'Press Start 2P';
-}
-
-div.container {
-    padding: 5px, 10px;
 }
