@@ -25,10 +25,12 @@ p {
     display: block;
     background-color: black;
    font-size: 120%;
+   text-align: center;
 }
 
 .headerContainer {
     background-color: black;
+    text-align: center;
 }
 
 .contentContainer {
@@ -41,7 +43,9 @@ background-color: black
 
 
 #navigation a:hover {
-    background-color: blue;
+    color: red;
+    font-size: 200%;
+
 }
 
 #navigation>ul>li {
@@ -52,5 +56,6 @@ background-color: black
 
 .listItem {
     color: yellow;
+
     font-family: 'Press Start 2P';
 }
