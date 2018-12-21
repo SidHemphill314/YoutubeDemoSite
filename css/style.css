@@ -22,9 +22,18 @@ p {
     text-align: center;
 }
 
+ul {
+    color: yellow;
+}
+
 img {
     border-radius: 30%;
+    border-style: solid;
     border-color: yellow;
+    max-width: 750px;
+    width: 30%;
+    margin: 2px auto;
+    margin-bottom: 20px;
 }
 
 .navigationContainer {
@@ -46,6 +55,7 @@ background-color: white;
 
 .footerContainer {
     background-color: black;
+
 }
 
 
