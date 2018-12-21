@@ -19,22 +19,29 @@ h3 {
 p {
     color: red;
     font-family: 'Press Start 2P';
+    text-align: center;
+}
+
+img {
+    border-radius: 30%;
+    border-color: yellow;
 }
 
 .navigationContainer {
     display: block;
-    background-color: black;
+    background-color: white;
    font-size: 120%;
    text-align: center;
+   
 }
 
 .headerContainer {
-    background-color: black;
+    background-color: white;
     text-align: center;
 }
 
 .contentContainer {
-background-color: black
+background-color: white;
 }
 
 .footerContainer {
@@ -42,9 +49,10 @@ background-color: black
 }
 
 
+
 #navigation a:hover {
     color: red;
-    font-size: 200%;
+    font-size: 150%;
 
 }
 
@@ -52,10 +60,10 @@ background-color: black
     display: inline;
     list-style: none;
     font-display: center;
+    
 }
 
 .listItem {
     color: yellow;
-
     font-family: 'Press Start 2P';
 }
