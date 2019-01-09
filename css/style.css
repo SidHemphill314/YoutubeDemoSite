@@ -1,14 +1,13 @@
-body{
+body {
     display: grid;
-    grid-template-areas: 
-    "navigation" "header" "content" "footer";
+    grid-template-rows: min-content min-content auto min-content;
+    grid-template-areas: "navigation" "header" "content" "footer" min-height: 100vh;
 }
 
 h1 {
     color: yellow;
     font-family: 'Press Start 2p';
-    position: center; 
-
+    position: center;
 }
 
 h2 {
@@ -19,7 +18,6 @@ h2 {
 h3 {
     color: yellow;
     font-family: 'Press Start 2p';
-
 }
 
 p {
@@ -30,7 +28,10 @@ p {
 
 ul {
     color: yellow;
+    padding: 0;
+    margin: 0 auto;
 }
+
 
 img {
     border-radius: 30%;
@@ -44,11 +45,18 @@ img {
 }
 
 .navigationContainer {
-    display: block;
-    background-color: white;
-   font-size: 120%;
-   text-align: center;
-   
+    position: fixed;
+    list-style: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+    font-size: 120%;
+    text-align: left;
+    text-decoration: none;
+    border-style: solid;
+    border-color: yellow;
+    border-block-end-width: 30%;
 }
 
 .headerContainer {
@@ -57,30 +65,32 @@ img {
 }
 
 .contentContainer {
-background-color: white;
+    background-color: white;
 }
 
 .footerContainer {
     background-color: black;
-
 }
 
-
-
 #navigation a:hover {
-    color: red;
-    font-size: 150%;
-
+    color: black;
+    font-size: 95%;
+    background: yellow;
 }
 
 #navigation>ul>li {
-    display: inline;
+    display: list-item;
     list-style: none;
     font-display: center;
-    
+    height: 70px;
+    padding: 20px;
+    text-decoration: none;
 }
 
-.listItem {
+.listItem a {
     color: yellow;
     font-family: 'Press Start 2P';
+    list-style: none;
+    color: #ffffff;
+    text-decoration: none;
 }
