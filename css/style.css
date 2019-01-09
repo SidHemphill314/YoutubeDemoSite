@@ -1,7 +1,14 @@
+@media (min-width: 612px) {
 body {
-    display: grid;
-    grid-template-rows: min-content min-content auto min-content;
-    grid-template-areas: "navigation" "header" "content" "footer" min-height: 100vh;
+   background-color: yellow;
+   display: grid;
+   grid-template-areas:
+     "navigation"
+     "header"
+     "content"
+     "footer";
+     min-height:100vh;
+    }
 }
 
 h1 {
@@ -62,12 +69,40 @@ img {
 .headerContainer {
     background-color: white;
     text-align: center;
+    padding: 20px;
+    margin: 10px;
 }
 
 .contentContainer {
     background-color: white;
+
 }
 
+.gallery {
+    text-align: center;
+    font-size: 200%;
+    padding: 80px;
+    margin: 10 px;
+    background-color: white;
+}
+
+.news {
+    text-align: center;
+    font-size: 200%;
+    padding: 80px;
+    margin: 10 px;
+    background-color: white;
+
+}
+
+.contact {
+    text-align: center;
+    font-size: 200%;
+    padding: 80px;
+    margin: 10 px;
+    background-color: white;
+
+}
 .footerContainer {
     background-color: black;
 }
@@ -93,4 +128,7 @@ img {
     list-style: none;
     color: #ffffff;
     text-decoration: none;
+}
+#root { 
+    background-color: yellow;
 }
