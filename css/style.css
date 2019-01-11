@@ -1,7 +1,8 @@
-@media (min-width: 612px) {
+@media (min-width: 750px) {
 body {
    background-color: yellow;
    display: grid;
+   grid-template-rows: min-content min-content auto min-content;
    grid-template-areas:
      "navigation"
      "header"
@@ -43,8 +44,9 @@ ul {
 img {
     border-radius: 30%;
     border-style: solid;
-    border-width: 30px;
+    border-width: 20px;
     border-color: yellow;
+    position: center;
     max-width: 750px;
     width: 30%;
     margin: 2px auto;
@@ -52,14 +54,11 @@ img {
 }
 
 .navigationContainer {
-    position: fixed;
+    position: sticky;
     list-style: none;
-    top: 0;
-    left: 0;
     height: 100%;
     background-color: black;
     font-size: 120%;
-    text-align: left;
     text-decoration: none;
     border-style: solid;
     border-color: yellow;
@@ -71,10 +70,15 @@ img {
     text-align: center;
     padding: 20px;
     margin: 10px;
+    
 }
 
 .contentContainer {
     background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+
 
 }
 
@@ -112,12 +116,13 @@ img {
     font-size: 95%;
     background: yellow;
 }
+ #navigation {
+     position: sticky;
+     top: 0; 
+ }
 
 #navigation>ul>li {
-    display: list-item;
     list-style: none;
-    font-display: center;
-    height: 70px;
     padding: 20px;
     text-decoration: none;
 }
