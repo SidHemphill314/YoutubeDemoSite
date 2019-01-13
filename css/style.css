@@ -39,6 +39,7 @@ ul {
     color: yellow;
     padding: 0;
     margin: 0 auto;
+    
 }
 
 
@@ -56,14 +57,12 @@ img {
 
 .navigationContainer {
     position: sticky;
-    list-style: none;
-    height: 100%;
-  
     background-color: black;
     font-size: 120%;
     text-decoration: none;
     border-style: solid;
     border-color: white;
+   
 }
 
 .headerContainer {
@@ -84,7 +83,7 @@ img {
 
 
 }
-
+/*
 .gallery {
     text-align: center;
     font-size: 200%;
@@ -118,19 +117,21 @@ img {
     margin: 10 px;
     background-color: white;
 
-}
+}*/
 .footerContainer {
     background-color: black;
     font-size: 120%;
     text-decoration: none;
     border-style: solid;
     border-color: rgb(243, 243, 214);
+    border-width: 10px;
     
 }
 
 #footer {
     display: block;
     position: sticky;
+    width: 100%;
 
 }
 
@@ -146,12 +147,18 @@ img {
  }
 
 #navigation>ul>li {
-    list-style:;
+    list-style: none;
     padding: 20px;
-    text-decoration: none;
+    flex-direction:
+
+   
 }
 
+.listItem{
+    display: flex;
+    flex-direction: row;
 
+}
 
 .listItem a {
     color: yellow;
@@ -159,7 +166,11 @@ img {
     list-style: none;
     color: #ffffff;
     text-decoration: none;
+   
+
 }
+
+
 #root { 
     background-color: yellow;
 }
