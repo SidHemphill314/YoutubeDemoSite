@@ -140,6 +140,7 @@ img {
  #navigation {
      position: sticky;
      top: 0; 
+     width: 100%;
  }
 
 #navigation>ul>li {
