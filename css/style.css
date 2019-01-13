@@ -2,7 +2,7 @@
 body {
    background-color: yellow;
    display: grid;
-   /*grid-template-columns: 10rem auto;*/
+   grid-template-columns: auto;
    grid-template-rows: min-content min-content auto min-content;
    grid-template-areas:
      "navigation"
@@ -144,7 +144,7 @@ img {
  }
 
 #navigation>ul>li {
-   
+    list-style:;
     padding: 20px;
     text-decoration: none;
 }
