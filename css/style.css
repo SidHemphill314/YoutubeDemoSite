@@ -58,7 +58,7 @@ img {
     position: sticky;
     list-style: none;
     height: 100%;
-    width: 100%;
+  
     background-color: black;
     font-size: 120%;
     text-decoration: none;
@@ -76,6 +76,7 @@ img {
 
 .contentContainer {
     background-color: white;
+    height: 100%;
     text-align: center;
     padding: 20px;
     margin: 10px;
@@ -130,6 +131,7 @@ img {
 #footer {
     display: block;
     position: sticky;
+
 }
 
 #navigation a:hover {
