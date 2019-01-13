@@ -149,13 +149,15 @@ img {
 #navigation>ul>li {
     list-style: none;
     padding: 20px;
+    display: inline-block;
+    font-size:120%;
    
 
    
 }
 
 .listItem{
-    display: grid;
+
     
 
 }
@@ -166,6 +168,7 @@ img {
     list-style: none;
     color: #ffffff;
     text-decoration: none;
+    padding: 40px;
    
 
 }
