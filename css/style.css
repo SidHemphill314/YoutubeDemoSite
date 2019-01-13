@@ -2,6 +2,7 @@
 body {
    background-color: yellow;
    display: grid;
+   /*grid-template-columns: 10rem auto;*/
    grid-template-rows: min-content min-content auto min-content;
    grid-template-areas:
      "navigation"
@@ -57,12 +58,12 @@ img {
     position: sticky;
     list-style: none;
     height: 100%;
+    width: 100%;
     background-color: black;
     font-size: 120%;
     text-decoration: none;
     border-style: solid;
-    border-color: yellow;
-    border-block-end-width: 30%;
+    border-color: white;
 }
 
 .headerContainer {
@@ -78,6 +79,7 @@ img {
     text-align: center;
     padding: 20px;
     margin: 10px;
+
 
 
 }
@@ -107,8 +109,27 @@ img {
     background-color: white;
 
 }
+
+.about {
+    text-align: center;
+    font-size: 200%;
+    padding: 80px;
+    margin: 10 px;
+    background-color: white;
+
+}
 .footerContainer {
     background-color: black;
+    font-size: 120%;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(243, 243, 214);
+    
+}
+
+#footer {
+    display: block;
+    position: sticky;
 }
 
 #navigation a:hover {
@@ -122,10 +143,12 @@ img {
  }
 
 #navigation>ul>li {
-    list-style: none;
+   
     padding: 20px;
     text-decoration: none;
 }
+
+
 
 .listItem a {
     color: yellow;
