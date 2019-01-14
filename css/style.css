@@ -156,10 +156,10 @@ img {
    
 }
 
-.listItem{
-
-    
-
+.fas{
+    color: white;
+  font-size: 120%;
+  list-style: none;
 }
 
 .listItem a {
