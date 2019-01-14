@@ -7,6 +7,10 @@ body {
    grid-template-areas:
      "navigation"
      "header"
+     "gallery"
+     "contact"
+     "about"
+     "news"
      "content"
      "footer";
      min-height:100vh;
@@ -36,12 +40,12 @@ p {
 }
 
 ul {
+    font-family: 'Press Start 2P';
     color: yellow;
     padding: 0;
     margin: 0 auto;
     
 }
-
 
 img {
     border-radius: 30%;
@@ -62,6 +66,7 @@ img {
     text-decoration: none;
     border-style: solid;
     border-color: white;
+    border-radius: 20px;
    
 }
 
@@ -70,6 +75,7 @@ img {
     text-align: center;
     padding: 20px;
     margin: 10px;
+    border-radius: 20px;
     
 }
 
@@ -79,53 +85,56 @@ img {
     text-align: center;
     padding: 20px;
     margin: 10px;
+    border-radius: 20px;
 
 
 
 }
-/*
+
 .gallery {
     text-align: center;
-    font-size: 200%;
-    padding: 80px;
-    margin: 10 px;
-    background-color: white;
+    font-size: 120%;
+    padding: 20px;
+    /* margin: 200px; */
+    background-color: black;
+    border-radius: 20px;
+    
 }
 
 .news {
     text-align: center;
-    font-size: 200%;
-    padding: 80px;
-    margin: 10 px;
-    background-color: white;
-
+    font-size: 120%;
+    padding: 20px;
+    /* margin: 200px; */
+    background-color: black;
+    border-radius: 20px;
 }
 
 .contact {
-    text-align: center;
-    font-size: 200%;
-    padding: 80px;
-    margin: 10 px;
-    background-color: white;
-
+  text-align: center;
+    font-size: 120%;
+    padding: 20px;
+    /* margin: 200px; */
+    background-color: black;
+    border-radius: 20px;
 }
 
 .about {
     text-align: center;
-    font-size: 200%;
-    padding: 80px;
-    margin: 10 px;
-    background-color: white;
+    font-size: 120%;
+    padding: 20px;
+    /* margin: 200px; */
+    background-color: black;
+    border-radius: 20px;
 
-}*/
+}
 .footerContainer {
     background-color: black;
     font-size: 120%;
     text-decoration: none;
     border-style: solid;
-    border-color: rgb(243, 243, 214);
-    border-width: 10px;
-    
+    border-color: white;
+    border-radius: 20px;
 }
 
 #footer {
@@ -139,6 +148,7 @@ img {
     color: black;
     font-size: 95%;
     background: yellow;
+    border-radius: 10px;
 }
  #navigation {
      position: sticky;
@@ -163,17 +173,23 @@ img {
 }
 
 .listItem a {
-    color: yellow;
     font-family: 'Press Start 2P';
     list-style: none;
     color: #ffffff;
     text-decoration: none;
-    padding: 40px;
-   
+    padding: 20px;
 
 }
-
-
+ .navToggle{
+    width: 100%;
+    padding: 10p 20px;
+    background: rgb(56, 56, 55);
+    text-align: right;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #dbd5d5;
+    font-size: 20px;
+}
 #root { 
     background-color: yellow;
 }
