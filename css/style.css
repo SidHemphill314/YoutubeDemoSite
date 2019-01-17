@@ -99,7 +99,16 @@ img {
     margin: 10px;
     border-radius: 20px;
 }
-
+/* Parallax Stuff Bellow */
+.gallery,.news,.contact,.about{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* Switch background-attachment for scrolling */
+    background-attachment: fixed;
+}
 .gallery {
   background-image: url('../Images/Smash\ Gallery.png');
   min-height: 400px;
