@@ -1,21 +1,22 @@
-@media (min-width: 750px) {
-body {
-   background-color: yellow;
-   display: grid;
-   grid-template-columns: auto;
-   grid-template-rows: min-content min-content auto min-content;
-   grid-template-areas:
-     "navigation"
-     "header"
-     "gallery"
-     "contact"
-     "about"
-     "news"
-     "content"
-     "footer";
-     min-height:100vh;
+
+/* Mobile Responsivness */
+/*@media (min-width: 750px) {
+    .navToggle {
+        display: block;
     }
-}
+    body {
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: auto;
+        /* grid-template-rows: min-content min-content auto min-content; 
+        grid-template-areas: 
+        "navigation" 
+        "header" 
+        "content"
+        "footer";
+        min-height: 100vh;
+    }
+}*/
 
 h1 {
     color: yellow;
@@ -42,9 +43,16 @@ p {
 ul {
     font-family: 'Press Start 2P';
     color: yellow;
-    padding: 0;
+    padding: 20px;
     margin: 0 auto;
-    
+}
+
+.fab {
+    font-size: 40px;
+}
+
+.fab a:hover {
+    color: white;
 }
 
 img {
@@ -67,7 +75,6 @@ img {
     border-style: solid;
     border-color: white;
     border-radius: 20px;
-   
 }
 
 .headerContainer {
@@ -76,72 +83,63 @@ img {
     padding: 20px;
     margin: 10px;
     border-radius: 20px;
+}
+
+#content {
+    display: block;
+    height: 100%;
+    
     
 }
 
 .contentContainer {
     background-color: white;
-    height: 100%;
     text-align: center;
     padding: 20px;
     margin: 10px;
     border-radius: 20px;
-
-
-
 }
 
 .gallery {
-    text-align: center;
-    font-size: 120%;
-    padding: 20px;
-    /* margin: 200px; */
-    background-color: black;
-    border-radius: 20px;
-    
+  background-image: url('../Images/Smash\ Gallery.png');
+  min-height: 400px;
 }
 
 .news {
-    text-align: center;
-    font-size: 120%;
-    padding: 20px;
-    /* margin: 200px; */
-    background-color: black;
-    border-radius: 20px;
+    background-image: url('../Images/PixelXboxController.jpg');
+    min-height: 400px;
+   
 }
 
 .contact {
-  text-align: center;
-    font-size: 120%;
-    padding: 20px;
-    /* margin: 200px; */
-    background-color: black;
-    border-radius: 20px;
+    background-image: url('../Images/RobTheRobot.JPG');
+    min-height: 300px;
+    
 }
 
 .about {
-    text-align: center;
-    font-size: 120%;
-    padding: 20px;
-    /* margin: 200px; */
-    background-color: black;
-    border-radius: 20px;
-
+    background-image: url('../Images/BuffNerdSmash.jpg');
+    min-height: 400px;
+    
 }
+
 .footerContainer {
+    display: grid;
     background-color: black;
     font-size: 120%;
     text-decoration: none;
     border-style: solid;
     border-color: white;
     border-radius: 20px;
+    
 }
 
 #footer {
-    display: block;
+    
     position: sticky;
     width: 100%;
-
+    /* bottom: 0; */
+    
 }
 
 #navigation a:hover {
@@ -150,26 +148,18 @@ img {
     background: yellow;
     border-radius: 10px;
 }
- #navigation {
-     position: sticky;
-     top: 0; 
-     width: 100%;
- }
+
+#navigation {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
 
 #navigation>ul>li {
     list-style: none;
     padding: 20px;
     display: inline-block;
-    font-size:120%;
-   
-
-   
-}
-
-.fas{
-    color: white;
-  font-size: 120%;
-  list-style: none;
+    font-size: 120%;
 }
 
 .listItem a {
@@ -178,18 +168,20 @@ img {
     color: #ffffff;
     text-decoration: none;
     padding: 20px;
-
 }
- .navToggle{
+
+.navToggle {
     width: 100%;
     padding: 10p 20px;
     background: rgb(56, 56, 55);
-    text-align: right;
+    text-align: left;
     box-sizing: border-box;
     border-radius: 4px;
     color: #dbd5d5;
-    font-size: 20px;
+    font-size: 30px;
+    display: none;
 }
-#root { 
+
+#root {
     background-color: yellow;
 }
