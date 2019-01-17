@@ -1,6 +1,6 @@
 
 /* Mobile Responsivness */
-/*@media (min-width: 750px) {
+/* @media (min-width: 750px) { 
     .navToggle {
         display: block;
     }
@@ -8,15 +8,15 @@
         background-color: yellow;
         display: grid;
         grid-template-columns: auto;
-        /* grid-template-rows: min-content min-content auto min-content; 
+     /* grid-template-rows: min-content min-content auto min-content;  
         grid-template-areas: 
         "navigation" 
         "header" 
         "content"
         "footer";
         min-height: 100vh;
-    }
-}*/
+    } */
+
 
 h1 {
     color: yellow;
@@ -68,7 +68,7 @@ img {
 }
 
 .navigationContainer {
-    position: sticky;
+    position: block;
     background-color: black;
     font-size: 120%;
     text-decoration: none;
@@ -87,26 +87,17 @@ img {
 
 #content {
     display: block;
-    height: 100%;
-    
-    
+
 }
 
-.contentContainer {
-    background-color: white;
-    text-align: center;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-}
 /* Parallax Stuff Bellow */
 .gallery,.news,.contact,.about{
     position: relative;
-    opacity: 0.70;
+     /* opacity: 0.70; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-/* Switch background-attachment for scrolling */
+/* Switch off background-attachment for regular scrolling */
     background-attachment: fixed;
 }
 .gallery {
@@ -130,6 +121,24 @@ img {
     background-image: url('../Images/BuffNerdSmash.jpg');
     min-height: 400px;
     
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.galleryText,.aboutText,.newsText,.contactText {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:yellow;
+    font-size: 80px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P';
+
 }
 
 .footerContainer {
@@ -159,6 +168,7 @@ img {
 }
 
 #navigation {
+    
     position: sticky;
     top: 0;
     width: 100%;
@@ -188,7 +198,7 @@ img {
     border-radius: 4px;
     color: #dbd5d5;
     font-size: 30px;
-    display: none;
+    display: block;
 }
 
 #root {
