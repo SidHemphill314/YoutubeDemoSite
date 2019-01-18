@@ -1,21 +1,74 @@
 
 /* Mobile Responsivness */
-/* @media (min-width: 750px) { 
-    .navToggle {
-        display: block;
+ @media (min-width: 768px) { 
+    /* .navToggle { */
+        /* display: block; */
+
     }
+    /* Parallax Stuff Bellow */
+.gallery,.news,.contact,.about{
+    position: relative;
+     /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* Switch off background-attachment for regular scrolling */
+    background-attachment: fixed;
+}
+.gallery {
+  background-image: url('../Images/Smash\ Gallery.png');
+  min-height: 750px;
+}
+
+.news {
+    background-image: url('../Images/PixelXboxController.jpg');
+    min-height: 400px;
+   
+}
+
+.contact {
+    background-image: url('../Images/RobTheRobot.JPG');
+    min-height: 300px;
+    
+}
+
+.about {
+    background-image: url('../Images/BuffNerdSmash.jpg');
+    min-height: 400px;
+
+    
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.galleryText,.aboutText,.newsText,.contactText {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color:yellow;
+    font-size: 80px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P';
+    background-color: black;
+max-width: 768px;
+}
     body {
         background-color: yellow;
         display: grid;
         grid-template-columns: auto;
-     /* grid-template-rows: min-content min-content auto min-content;  
+      grid-template-rows: min-content min-content auto min-content;  
         grid-template-areas: 
         "navigation" 
         "header" 
         "content"
         "footer";
         min-height: 100vh;
-    } */
+    }
 
 
 h1 {
@@ -90,56 +143,7 @@ img {
 
 }
 
-/* Parallax Stuff Bellow */
-.gallery,.news,.contact,.about{
-    position: relative;
-     /* opacity: 0.70; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-/* Switch off background-attachment for regular scrolling */
-    background-attachment: fixed;
-}
-.gallery {
-  background-image: url('../Images/Smash\ Gallery.png');
-  min-height: 400px;
-}
 
-.news {
-    background-image: url('../Images/PixelXboxController.jpg');
-    min-height: 400px;
-   
-}
-
-.contact {
-    background-image: url('../Images/RobTheRobot.JPG');
-    min-height: 300px;
-    
-}
-
-.about {
-    background-image: url('../Images/BuffNerdSmash.jpg');
-    min-height: 400px;
-    
-}
-
-.section{
-    text-align: center;
-    padding: 50px 80px;
-}
-
-.galleryText,.aboutText,.newsText,.contactText {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color:yellow;
-    font-size: 80px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    font-family: 'Press Start 2P';
-
-}
 
 .footerContainer {
     display: grid;
