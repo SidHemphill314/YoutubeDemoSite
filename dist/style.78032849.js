@@ -104,7 +104,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({"../../../AppData/Roaming/npm-cache/_npx/10212/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../AppData/Roaming/npm-cache/_npx/8912/node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -136,7 +136,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../AppData/Roaming/npm-cache/_npx/10212/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../AppData/Roaming/npm-cache/_npx/8912/node_modules/parcel/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -171,12 +171,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../AppData/Roaming/npm-cache/_npx/10212/node_modules/parcel/src/builtins/bundle-url.js"}],"css/style.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../AppData/Roaming/npm-cache/_npx/8912/node_modules/parcel/src/builtins/bundle-url.js"}],"css/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\Images\\SmashGallery.png":[["SmashGallery.4aa46a10.png","Images/SmashGallery.png"],"Images/SmashGallery.png"],"./..\\Images\\PixelXboxController.jpg":[["PixelXboxController.cc803c62.jpg","Images/PixelXboxController.jpg"],"Images/PixelXboxController.jpg"],"./..\\Images\\BuffNerdSmash.jpg":[["BuffNerdSmash.9f5a44c7.jpg","Images/BuffNerdSmash.jpg"],"Images/BuffNerdSmash.jpg"],"_css_loader":"../../../AppData/Roaming/npm-cache/_npx/10212/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm-cache/_npx/10212/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\Images\\SmashGallery.png":[["SmashGallery.4aa46a10.png","Images/SmashGallery.png"],"Images/SmashGallery.png"],"./..\\Images\\PixelXboxController.jpg":[["PixelXboxController.cc803c62.jpg","Images/PixelXboxController.jpg"],"Images/PixelXboxController.jpg"],"./..\\Images\\BuffNerdSmash.jpg":[["BuffNerdSmash.9f5a44c7.jpg","Images/BuffNerdSmash.jpg"],"Images/BuffNerdSmash.jpg"],"_css_loader":"../../../AppData/Roaming/npm-cache/_npx/8912/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm-cache/_npx/8912/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +203,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57632" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64730" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -345,4 +345,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../../AppData/Roaming/npm-cache/_npx/10212/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../AppData/Roaming/npm-cache/_npx/8912/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
