@@ -1,63 +1,6 @@
 
 /* Mobile Responsivness */
- @media (min-width: 768px) { 
-    /* .navToggle { */
-        /* display: block; */
-
-    }
-    /* Parallax Stuff Bellow */
-.gallery,.news,.contact,.about{
-    position: relative;
-     opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-/* Switch off background-attachment for regular scrolling */
-    background-attachment: fixed;
-}
-.gallery {
-  background-image: url('../Images/SmashGallery.png');
-  min-height: 750px;
-}
-
-.news {
-    background-image: url('../Images/PixelXboxController.jpg');
-    min-height: 400px;
-   
-}
-
-.contact {
-    background-image: url('../Images/RobTheRobot.JPG');
-    min-height: 700px;
-    
-}
-
-.about {
-    background-image: url('../Images/BuffNerdSmash.jpg');
-    min-height: 400px;
-
-    
-}
-
-.section{
-    text-align: center;
-    padding: 50px 80px;
-    
-}
-
-.galleryText,.aboutText,.newsText,.contactText {
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    text-align: center;
-    color:yellow;
-    font-size: 30px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    font-family: 'Press Start 2P';
-    background-color: black;
-max-width: 768px;
-}
+ @media (min-width: 750px) {
     body {
         background-color: yellow;
         display: grid;
@@ -70,6 +13,61 @@ max-width: 768px;
         "footer";
         min-height: 100vh;
     }
+}
+.gallery,.news,.contact,.about{
+    position: relative;
+     /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* Switch off background-attachment for regular scrolling */
+    background-attachment: fixed;
+    
+}
+.gallery {
+  background-image: url('../Images/SmashGallery.png');
+  min-height: 500px;
+}
+
+.news {
+    background-image: url('../Images/PixelXboxController.jpg');
+    min-height: 400px;
+   
+}
+
+.contact {
+    background-image: url('https://thumbs.gfycat.com/BitesizedGoodAsianpiedstarling-size_restricted.gif');
+    min-height: 700px;
+    
+    
+}
+
+.about {
+    background-image: url('../Images/BuffNerdSmash.jpg');
+    min-height: 400px;
+
+
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    
+}
+
+.galleryText,.aboutText,.newsText,.contactText {
+    position: absolute;
+    top: 40%;
+    width: 55%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P';
+    background-color: yellow;
+   
+}
 
 
 h1 {
@@ -123,8 +121,9 @@ img {
 }
 
 .navigationContainer {
-    position: block;
+    position: grid;
     background-color: black;
+    background-size: relative;
     font-size: 120%;
     text-decoration: none;
     border-style: solid;
@@ -142,7 +141,7 @@ img {
 
 #content {
     display: block;
-
+background-color: yellow;
 }
 
 
@@ -174,10 +173,11 @@ img {
 }
 
 #navigation {
-    
+    display:grid;
     position: sticky;
-    top: 0;
+    top: 100;
     width: 100%;
+
 }
 
 #navigation>ul>li {
@@ -193,6 +193,7 @@ img {
     color: #ffffff;
     text-decoration: none;
     padding: 20px;
+
 }
 
 .navToggle {
