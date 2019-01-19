@@ -49,7 +49,7 @@ background: white;
 
 .about {
     background-image: url('BuffNerdSmash.9f5a44c7.jpg');
-    min-height: 400px;
+    min-height: 700px;
 
 
 }
@@ -63,7 +63,7 @@ background: white;
 .galleryText,.aboutText,.newsText,.contactText {
     position: absolute;
     top: 40%;
-    width: 55%;
+    width: 60%;
     text-align: center;
     color: black;
     font-size: 30px;
