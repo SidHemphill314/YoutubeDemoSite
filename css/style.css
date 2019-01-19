@@ -16,7 +16,7 @@
     background-attachment: fixed;
 }
 .gallery {
-  background-image: url('../Images/Smash\ Gallery.png');
+  background-image: url('../Images/SmashGallery.png');
   min-height: 750px;
 }
 
@@ -28,7 +28,7 @@
 
 .contact {
     background-image: url('../Images/RobTheRobot.JPG');
-    min-height: 300px;
+    min-height: 700px;
     
 }
 
@@ -42,6 +42,7 @@
 .section{
     text-align: center;
     padding: 50px 80px;
+    
 }
 
 .galleryText,.aboutText,.newsText,.contactText {
@@ -50,7 +51,7 @@
     width: 100%;
     text-align: center;
     color:yellow;
-    font-size: 80px;
+    font-size: 30px;
     letter-spacing: 8px;
     text-transform: uppercase;
     font-family: 'Press Start 2P';

@@ -1,26 +1,211 @@
+
+/* Mobile Responsivness */
+ @media (min-width: 768px) { 
+    /* .navToggle { */
+        /* display: block; */
+
+    }
+    /* Parallax Stuff Bellow */
+.gallery,.news,.contact,.about{
+    position: relative;
+     /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* Switch off background-attachment for regular scrolling */
+    background-attachment: fixed;
+}
+.gallery {
+  background-image: url('SmashGallery.4aa46a10.png');
+  min-height: 750px;
+}
+
+.news {
+    background-image: url('PixelXboxController.cc803c62.jpg');
+    min-height: 400px;
+   
+}
+
+.contact {
+    background-image: url('RobTheRobot.1369432c.JPG');
+    min-height: 700px;
+    
+}
+
+.about {
+    background-image: url('BuffNerdSmash.9f5a44c7.jpg');
+    min-height: 400px;
+
+    
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    
+}
+
+.galleryText,.aboutText,.newsText,.contactText {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color:yellow;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P';
+    background-color: black;
+max-width: 768px;
+}
+    body {
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: auto;
+      grid-template-rows: min-content min-content auto min-content;  
+        grid-template-areas: 
+        "navigation" 
+        "header" 
+        "content"
+        "footer";
+        min-height: 100vh;
+    }
+
+
 h1 {
     color: yellow;
     font-family: 'Press Start 2p';
-    
+    position: center;
 }
+
 h2 {
     color: grey;
     font-family: 'Press Start 2p';
 }
 
 h3 {
+    color: yellow;
     font-family: 'Press Start 2p';
 }
+
 p {
     color: red;
     font-family: 'Press Start 2P';
+    text-align: center;
 }
 
-.listItem {
-    color: yellow;
+ul {
     font-family: 'Press Start 2P';
+    color: yellow;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-div.container {
-    padding: 5px, 10px;
+.fab {
+    font-size: 40px;
+}
+
+.fab a:hover {
+    color: white;
+}
+
+img {
+    border-radius: 30%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: yellow;
+    position: center;
+    max-width: 750px;
+    width: 30%;
+    margin: 2px auto;
+    margin-bottom: 20px;
+}
+
+.navigationContainer {
+    position: block;
+    background-color: black;
+    font-size: 120%;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.headerContainer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#content {
+    display: block;
+
+}
+
+
+
+.footerContainer {
+    display: grid;
+    background-color: black;
+    font-size: 120%;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    
+}
+
+#footer {
+    
+    position: sticky;
+    width: 100%;
+    /* bottom: 0; */
+    
+}
+
+#navigation a:hover {
+    color: black;
+    font-size: 95%;
+    background: yellow;
+    border-radius: 10px;
+}
+
+#navigation {
+    
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+#navigation>ul>li {
+    list-style: none;
+    padding: 20px;
+    display: inline-block;
+    font-size: 120%;
+}
+
+.listItem a {
+    font-family: 'Press Start 2P';
+    list-style: none;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navToggle {
+    width: 100%;
+    padding: 10p 20px;
+    background: rgb(56, 56, 55);
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #dbd5d5;
+    font-size: 30px;
+    display: block;
+}
+
+#root {
+    background-color: yellow;
 }
