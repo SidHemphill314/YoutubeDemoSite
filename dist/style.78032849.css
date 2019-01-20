@@ -121,14 +121,16 @@ ul {
 img {
     border-radius: 30%;
     border-style: solid;
-    border-width: 20px;
+    border-width: 5px;
     border-color: yellow;
     position: center;
-    max-width: 750px;
-    width: 30%;
-    margin: 2px auto;
-    margin-bottom: 20px;
+    
+    width: 90%;
+    /* margin: 2px auto; */
+    /* margin-bottom: 20px; */
+
 }
+
 
 .navigationContainer {
     position: grid;
