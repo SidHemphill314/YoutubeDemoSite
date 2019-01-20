@@ -90,12 +90,17 @@ h3 {
     color: yellow;
     font-family: 'Press Start 2p';
 }
+h4{
+    color: black;
+    font-family: 'Press Start 2p';
+    font-size: 36px;
+}
 
 p {
     color: red;
-    font-family: 'Press Start 2P';
+    font-family: sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 ul {
@@ -147,6 +152,7 @@ img {
 #content {
     display: block;
 background-color: yellow;
+text-align: center;
 }
 
 
@@ -170,6 +176,10 @@ background-color: yellow;
     
 }
 
+#footerIcons {
+    display: flex;
+    font-size: 60px;
+}
 #navigation a:hover {
     color: black;
     font-size: 95%;
@@ -212,6 +222,34 @@ background-color: yellow;
     font-size: 30px;
     display: block;
 }
+
+/* Form styling for Contact Page */
+input[type=text] {
+    border: 30px;
+    border-radius: 30px;
+    display: inline;
+}
+
+input[type=email]{
+    border: 30px;
+    border-radius: 30px;
+    display: inline;
+}
+
+input[type=textarea]{
+    width : 150px;
+    margin: 20px;
+  
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+       -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+            box-sizing: border-box;
+}
+fieldset{
+    background-color: yellow;
+    border: 20px;    
+    
+}
+
 
 #root {
     background-color: yellow;
