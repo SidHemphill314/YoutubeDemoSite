@@ -108,10 +108,13 @@ ul {
     color: yellow;
     padding: 20px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 .fab {
     font-size: 40px;
+    color:#ffffff;
+    text-decoration: none;
 }
 
 .fab a:hover {
@@ -124,9 +127,9 @@ img {
     border-width: 5px;
     border-color: yellow;
     position: center;
-    
-    width: 90%;
-    /* margin: 2px auto; */
+    max-width: 750px;
+    width:90%;
+     /* margin: 2px auto;  */
     /* margin-bottom: 20px; */
 
 }
@@ -175,12 +178,14 @@ text-align: center;
     position: sticky;
     width: 100%;
     /* bottom: 0; */
+    text-decoration: none;
     
 }
 
 #footerIcons {
     display: flex;
     font-size: 60px;
+    text-decoration: none;
 }
 #navigation a:hover {
     color: black;
