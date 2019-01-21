@@ -13,6 +13,7 @@
         "footer";
         min-height: 100vh;
     }
+    
 }
 .gallery,.news,.contact,.about{
     position: relative;
@@ -75,6 +76,16 @@ background: white;
 }
 
 
+
+td{
+    padding: 10px;
+}
+
+th {
+    font-size: 2em;
+    background-color: yellow;
+}
+
 h1 {
     color: yellow;
     font-family: 'Press Start 2p';
@@ -127,8 +138,8 @@ img {
     border-width: 5px;
     border-color: yellow;
     position: center;
-    max-width: 750px;
-    width:90%;
+    width:280px;
+    height:280px;
      /* margin: 2px auto;  */
     /* margin-bottom: 20px; */
 
@@ -214,7 +225,7 @@ text-align: center;
     list-style: none;
     color: #ffffff;
     text-decoration: none;
-    padding: 20px;
+    padding: 8px;
 
 }
 
@@ -256,6 +267,7 @@ fieldset{
     border: 20px;    
     
 }
+
 
 
 #root {
